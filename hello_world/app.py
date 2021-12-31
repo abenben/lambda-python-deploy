@@ -5,7 +5,8 @@ import os
 
 # 環境変数取得
 # channel_list = os.environ.get("CHANNEL_LIST").split(",")
-channel_list = ["https://hooks.slack.com/services/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"]
+# channel_list = ["https://hooks.slack.com/services/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"] # STAR
+channel_list = ["https://hooks.slack.com/services/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"] # テスト用
 
 
 def post_slack(channel, msg):
